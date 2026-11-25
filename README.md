@@ -60,7 +60,7 @@ From the outputs in [`01_core_analysis.ipynb`](notebook/analysis/01_core_analysi
 ## Project Structure
 
 ```text
-pandas_cleaning/
+retail-data-cleaning-analysis/
 ├── data/
 │   ├── raw/                    # original CSV files (unchanged)
 │   └── cleaned/                # Parquet output from the cleaning notebooks
@@ -82,8 +82,8 @@ pandas_cleaning/
 Requires [uv](https://docs.astral.sh/uv/). uv installs Python 3.12 automatically (pinned in `.python-version`).
 
 ```bash
-git clone https://github.com/Re7absu/pandas_cleaning.git
-cd pandas_cleaning
+git clone https://github.com/Re7absu/retail-data-cleaning-analysis.git
+cd retail-data-cleaning-analysis
 uv sync
 ```
 
@@ -117,3 +117,7 @@ Use of the data is for learning purposes only.
 - Add a data dictionary for each cleaned dataset.
 - Add analysis of the used-devices listings (prices by city, popular tags).
 - Record the original data sources and their licences.
+
+## License
+
+The code and notebooks are released under the [MIT License](LICENSE). The datasets in `data/` are not covered by this license and keep their original terms (see [Data Sources](#data-sources)).
