@@ -1,10 +1,10 @@
 [project]
 name = "pandas-cleaning"
 version = "0.1.0"
-description = "Add your description here"
+description = "Cleaning and exploratory analysis of retail transactions, customers and used-device listings with pandas."
 readme = "README.md"
 authors = [
-    { name = "Re7ab", email = "re7ab.su95@gmail.com" }
+    { name = "Rehab Bakhet" }
 ]
 requires-python = ">=3.12"
 dependencies = [
